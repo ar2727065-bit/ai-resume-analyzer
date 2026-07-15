@@ -20,6 +20,12 @@
 
 ---
 
+# 🌐 Live Demo
+
+Try the app here: [https://reume-analyzer.vercel.app/](https://reume-analyzer.vercel.app/)
+
+---
+
 # 📖 Overview
 
 AI Resume Analyzer is a modern web application that helps job seekers improve their resumes using Artificial Intelligence.
