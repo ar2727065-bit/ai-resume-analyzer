@@ -100,25 +100,7 @@ AI-Resume-Analyzer
 
 ---
 
-# 🖼 Screenshots
 
-## Home Page
-
-![Home screen](docs/screenshots/resume_01.png)
-
----
-
-## Resume Upload
-
-![Resume upload](docs/screenshots/resume_02.png)
-
----
-
-## Analysis Result
-
-![Analysis result](docs/screenshots/resume_03.png)
-
----
 
 # 🚀 Getting Started
 
@@ -229,29 +211,10 @@ git push origin feature-name
 
 ---
 
-# 📜 License
 
-This project is licensed under the MIT License.
 
 ---
 
-# 👨‍💻 Author
-
-**Abhay Verma**
-
-🎓 Computer Science Student
-
-💻 Full Stack Web Developer
-
-📚 Data Structures & Algorithms Enthusiast
-
-### Connect with me
-
-- GitHub: https://github.com/ar2727065-bit
-- LinkedIn: https://linkedin.com/in/yourusername
-- Portfolio: https://yourportfolio.com
-
----
 
 # ⭐ Show Your Support
 
