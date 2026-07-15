@@ -1,24 +1,40 @@
-# Welcome to React Router!
+# AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+AI Resume Analyzer is a modern web app that helps job seekers evaluate their resumes against a job description. It uploads a PDF resume, converts it to an image preview, and generates ATS-style feedback using AI.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- Upload and analyze PDF resumes
+- Convert PDF resumes to image previews for AI processing
+- Generate structured feedback for ATS compatibility and resume improvement
+- View a detailed breakdown of resume strengths and weaknesses
+- Clean, modern UI built with React Router and Tailwind CSS
+
+## Screenshots
+
+![Home screen](docs/screenshots/resume_01.png)
+
+![Resume feedback view](docs/screenshots/resume_02.png)
+
+![Resume analysis detail](docs/screenshots/resume_03.png)
+
+## Tech Stack
+
+- React Router
+- TypeScript
+- Tailwind CSS
+- Zustand
+- PDF.js
+- Puter AI / storage APIs
 
 ## Getting Started
 
-### Installation
+### Prerequisites
 
-Install the dependencies:
+- Node.js 18+
+- npm
+
+### Installation
 
 ```bash
 npm install
@@ -26,62 +42,33 @@ npm install
 
 ### Development
 
-Start the development server with HMR:
-
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+Then open http://localhost:5173 in your browser.
 
-## Building for Production
-
-Create a production build:
+### Production Build
 
 ```bash
 npm run build
 ```
 
-## Deployment
+## Project Structure
 
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
+```text
+app/
+  components/
+  lib/
+  routes/
+constants/
+public/
 ```
 
-The containerized application can be deployed to any platform that supports Docker, including:
+## Notes
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+This project uses browser-side PDF conversion and AI-powered feedback generation. Make sure your environment has access to the required Puter services for full functionality.
 
-### DIY Deployment
+## License
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+This project is for educational and demo purposes.
